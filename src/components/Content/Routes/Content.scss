@@ -1,0 +1,15 @@
+$main_back_color: #094074;
+
+.wrapper, main > div{
+  background: $main_back_color;
+}
+
+.content__centered{
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+iframe{
+  background: #fff;
+  border-radius: 10px;
+}

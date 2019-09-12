@@ -1,0 +1,17 @@
+header{
+    font-family: 'Roboto';
+}
+
+.header__container{
+    padding-top: 15px;
+    color:#fff;
+    font-style: normal;
+}
+
+.header__centered{
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    margin: 0 auto;
+}
+

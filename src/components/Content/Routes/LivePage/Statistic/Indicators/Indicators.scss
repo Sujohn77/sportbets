@@ -1,0 +1,54 @@
+
+.indicator__block {
+  position: relative;
+  color:#fff;
+
+  div:first-child{
+    line-height: 18px;
+    font-size: 13px;
+  }
+
+  div.indicator{
+    border-radius: 15px;
+    height: 16px;
+    width: 100%;
+    background: #000;
+    margin-bottom: 0.75rem;
+
+    &.reverse div{
+      span:first-child{
+        color:#fff;
+      }
+      span:last-child{
+        color:#000;
+      }
+    }
+    &.reverse .white__filler{
+      float:right;
+    }
+
+    div{
+      position: absolute;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0 10px;
+
+      span:first-child{
+        color:#000;
+      }
+
+      span:last-child{
+        color:#fff;
+      }
+
+    }
+    span.white__filler{
+      border-radius: 12px;
+      background: #fff;
+      width: 70%;
+      height: 100%;
+      display: block;
+    }
+  }
+ }

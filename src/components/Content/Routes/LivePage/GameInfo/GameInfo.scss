@@ -1,0 +1,80 @@
+$btn_back_color:  #303030;
+$share_button: #1A1A1A;
+$text_name_property:  #6A6A6A;
+$text_value_property:  #0190F1;
+
+@mixin button-grey{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+button.button-grey{
+  @include button-grey;
+
+  color:#fff;
+  font-weight: 600;
+  font-size: 22px;
+  width:140px;
+  background: $btn_back_color;
+  border:none;
+}
+
+.game__score{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #D91849;
+}
+
+.game__time{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn-default button{
+  @include button-grey;
+
+  height: 35px;
+  background: $share_button;
+  width: 100%;
+  border-radius: 10px;
+  border:none;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.chances__block{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  div{
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 90px;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+    span:first-child{
+      color:  $text_name_property;
+    }
+    span:last-child{
+      margin-left: 0.5rem;
+      color:  $text_value_property;
+      font-weight: 600;
+    }
+  }
+}
