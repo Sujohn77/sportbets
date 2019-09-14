@@ -16,10 +16,10 @@ const App = () => {
     <BrowserRouter>
       <Provider store={store}>
           <Layout>
-              <Route exact path={"/"} render={() => <MainPage/>}/>
-              <Route path={"/live"} render={() => <LivePageContainer/>}/>
-              <Route  path={"/line"} render={() => <LinePage/>}/>
-              <Route path={"/casino"} render={() => <CasinoPage/>}/>
+              <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => <MainPage/>}/>
+              <Route path={`${process.env.PUBLIC_URL}/live`} render={() => <LivePageContainer/>}/>
+              <Route  path={`${process.env.PUBLIC_URL}/line`} render={() => <LinePage/>}/>
+              <Route path={`${process.env.PUBLIC_URL}casino`} render={() => <CasinoPage/>}/>
           </Layout>
       </Provider>
     </BrowserRouter>
