@@ -2,7 +2,7 @@
   "name": "sportbets",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sujohn77.github.io/sportbets/build",
+  "homepage": "https://sujohn77.github.io/sportbets",
   "dependencies": {
     "axios": "^0.19.0",
     "compose": "^0.1.2",
