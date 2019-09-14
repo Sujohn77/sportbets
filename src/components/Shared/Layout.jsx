@@ -9,7 +9,6 @@ export const Layout = (props) => {
         <div className="wrapper">
             <Header/>
             {props.children}
-            {/*<Footer/>*/}
         </div>
     )
 }
