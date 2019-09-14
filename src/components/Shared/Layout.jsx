@@ -1,13 +1,12 @@
 import React from "react"
-import {Header} from "../Header/Header.jsx";
-import {Footer} from "../Footer/Footer.jsx";
 import "./Layout.scss";
+import HeaderContainer from "../Header/HeaderContainer.jsx";
 
 
 export const Layout = (props) => {
     return (
         <div className="wrapper">
-            <Header/>
+            <HeaderContainer/>
             {props.children}
         </div>
     )

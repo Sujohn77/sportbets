@@ -11,14 +11,14 @@ export const LivePage = (props) => {
     useEffect(() => {
         props.getBalanceUser(props.match.params.user_id || 187640199);
 
+        props.getGameData(props.match.params.match_id || 260237556,props.match.params.lng || "en")
+
         window.innerWidth > 720? setWidth(720) : setWidth(window.innerWidth);
 
         window.addEventListener('resize',() => {(window.innerWidth > 720)? setWidth(720) : setWidth(window.innerWidth);});
     },[])
 
     const url = "https://map-attacks.espnbet.com/?id";
-
-    console.log(props.match.params)
 
     return <main>
         <div className="content__centered">

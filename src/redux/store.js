@@ -3,11 +3,11 @@ import {createStore, combineReducers, applyMiddleware} from "redux";
 
 import thunkMiddleware from "redux-thunk";
 import {appReducer} from "./app-reducer";
-import {userReducer} from "./user-reducer";
+import {liveReducer} from "./live-reducer";
 
 let reducers = combineReducers({
     app:appReducer,
-    userPage:userReducer
+    livePage:liveReducer,
 });
 
 let store = createStore(reducers,applyMiddleware(thunkMiddleware));

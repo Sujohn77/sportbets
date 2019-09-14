@@ -1,14 +1,13 @@
-import {Header} from "./LivePage.jsx";
-import {withRouter} from "react-router";
 import {compose} from "redux";
-import {getBalanceUser} from "../../../../redux/user-reducer";
 import {connect} from "react-redux";
+import {Header} from "./Header.jsx";
 
-let mapStateToProps = (state) => ({
-    balance: state.userPage.balance
-})
+let mapStateToProps = (state) => {
 
-export default compose(
-    withRouter,
-    connect(mapStateToProps)
-)(Header);
+    return{
+        balance: state.livePage.balance
+    }
+
+}
+
+export default compose(connect(mapStateToProps))(Header);
