@@ -17,7 +17,7 @@ const App = () => {
       <Provider store={store}>
           <Layout>
               <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => <MainPage/>}/>
-              <Route path={`${process.env.PUBLIC_URL}/live`} render={() => <LivePageContainer/>}/>
+              <Route path={`https://sujohn77.github.io/sportbets/`} render={() => <LivePageContainer/>}/>
               <Route  path={`${process.env.PUBLIC_URL}/line`} render={() => <LinePage/>}/>
               <Route path={`${process.env.PUBLIC_URL}casino`} render={() => <CasinoPage/>}/>
           </Layout>
