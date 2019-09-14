@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sportbets/static/css/main.6a680f35.chunk.css",
+    "main.css": "/sportbets/static/css/main.a2bf7490.chunk.css",
     "main.js": "/sportbets/static/js/main.6fa6bd9d.chunk.js",
     "main.js.map": "/sportbets/static/js/main.6fa6bd9d.chunk.js.map",
     "runtime~main.js": "/sportbets/static/js/runtime~main.57ec881c.js",
@@ -9,10 +9,10 @@
     "static/js/2.0518caab.chunk.js": "/sportbets/static/js/2.0518caab.chunk.js",
     "static/js/2.0518caab.chunk.js.map": "/sportbets/static/js/2.0518caab.chunk.js.map",
     "index.html": "/sportbets/index.html",
-    "precache-manifest.66efa25f04e33d013b6135ac0e35010a.js": "/sportbets/precache-manifest.66efa25f04e33d013b6135ac0e35010a.js",
+    "precache-manifest.d4d864fb0d3418490fb5b0dc8b4270e0.js": "/sportbets/precache-manifest.d4d864fb0d3418490fb5b0dc8b4270e0.js",
     "service-worker.js": "/sportbets/service-worker.js",
     "static/css/2.d7a94725.chunk.css.map": "/sportbets/static/css/2.d7a94725.chunk.css.map",
-    "static/css/main.6a680f35.chunk.css.map": "/sportbets/static/css/main.6a680f35.chunk.css.map",
+    "static/css/main.a2bf7490.chunk.css.map": "/sportbets/static/css/main.a2bf7490.chunk.css.map",
     "static/media/App.scss": "/sportbets/static/media/montserrat.d0e19a25.ttf",
     "static/media/logo.svg": "/sportbets/static/media/logo.efe41bc5.svg",
     "static/media/user-default.svg": "/sportbets/static/media/user-default.d0338f26.svg"
