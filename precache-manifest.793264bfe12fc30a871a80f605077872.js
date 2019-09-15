@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f5ee9798612944abf96b86090378d57",
+    "revision": "cac8f4bb8142f5c2e8ef834bbfd5c3a1",
     "url": "/sportbets/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sportbets/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "e2bcf1e2000df5a37b7d",
+    "revision": "c45c645dca00fc5fd52a",
     "url": "/sportbets/static/css/main.901e3209.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sportbets/static/js/2.fff5e64c.chunk.js"
   },
   {
-    "revision": "e2bcf1e2000df5a37b7d",
-    "url": "/sportbets/static/js/main.959edb5f.chunk.js"
+    "revision": "c45c645dca00fc5fd52a",
+    "url": "/sportbets/static/js/main.afe136a6.chunk.js"
   },
   {
     "revision": "3fc3f63f860e4d5fc131",
