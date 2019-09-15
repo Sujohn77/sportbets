@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/sportbets/static/css/main.1083321b.chunk.css",
-    "main.js": "/sportbets/static/js/main.f88fedee.chunk.js",
-    "main.js.map": "/sportbets/static/js/main.f88fedee.chunk.js.map",
+    "main.css": "/sportbets/static/css/main.901e3209.chunk.css",
+    "main.js": "/sportbets/static/js/main.9ad29268.chunk.js",
+    "main.js.map": "/sportbets/static/js/main.9ad29268.chunk.js.map",
     "runtime~main.js": "/sportbets/static/js/runtime~main.57ec881c.js",
     "runtime~main.js.map": "/sportbets/static/js/runtime~main.57ec881c.js.map",
-    "static/css/2.d7a94725.chunk.css": "/sportbets/static/css/2.d7a94725.chunk.css",
-    "static/js/2.2e6f7d64.chunk.js": "/sportbets/static/js/2.2e6f7d64.chunk.js",
-    "static/js/2.2e6f7d64.chunk.js.map": "/sportbets/static/js/2.2e6f7d64.chunk.js.map",
+    "static/css/2.266e55a5.chunk.css": "/sportbets/static/css/2.266e55a5.chunk.css",
+    "static/js/2.71a8242b.chunk.js": "/sportbets/static/js/2.71a8242b.chunk.js",
+    "static/js/2.71a8242b.chunk.js.map": "/sportbets/static/js/2.71a8242b.chunk.js.map",
     "index.html": "/sportbets/index.html",
-    "precache-manifest.e379ad07f0f9553568e432bacf626b17.js": "/sportbets/precache-manifest.e379ad07f0f9553568e432bacf626b17.js",
+    "precache-manifest.5b583205c27a7826737f1e0dddd2cba0.js": "/sportbets/precache-manifest.5b583205c27a7826737f1e0dddd2cba0.js",
     "service-worker.js": "/sportbets/service-worker.js",
-    "static/css/2.d7a94725.chunk.css.map": "/sportbets/static/css/2.d7a94725.chunk.css.map",
-    "static/css/main.1083321b.chunk.css.map": "/sportbets/static/css/main.1083321b.chunk.css.map",
+    "static/css/2.266e55a5.chunk.css.map": "/sportbets/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.901e3209.chunk.css.map": "/sportbets/static/css/main.901e3209.chunk.css.map",
     "static/media/App.scss": "/sportbets/static/media/montserrat.d0e19a25.ttf",
     "static/media/logo.svg": "/sportbets/static/media/logo.efe41bc5.svg",
+    "static/media/telegram.svg": "/sportbets/static/media/telegram.0e11930b.svg",
     "static/media/user-default.svg": "/sportbets/static/media/user-default.d0338f26.svg"
   }
 }

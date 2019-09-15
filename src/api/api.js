@@ -8,7 +8,6 @@ export const UserAPI = {
 
 export const GameAPI = {
     getDataGame(gameId, lang){
-
         return axios.get(`https://test-22413.herokuapp.com/get_game_info?game_id=${gameId}&lng=${lang}`).then(response => response.data);
     }
 }

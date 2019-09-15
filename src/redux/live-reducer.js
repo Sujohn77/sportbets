@@ -1,8 +1,9 @@
 import {GameAPI, UserAPI} from "../api/api";
 import {getHashSha256} from "../hash/sha256";
 
-const SET_USER_BALANCE = "GET_USER_BALANCE";
-const SET_GAME_DATA = "GET_USER_BALANCE";
+const SET_USER_BALANCE = "SET_USER_BALANCE";
+const SET_GAME_DATA = "SET_GAME_DATA";
+const SET_USER_ID = "SET_USER_ID";
 
 let initialState = {
     balance:null,
@@ -20,6 +21,11 @@ export const liveReducer = (state = initialState, action ) => {
             return {
                 ...state,
                 data: action.payload,
+            };
+        case SET_USER_ID:
+            return {
+                ...state,
+                userId: action.payload,
             };
         default: return state;
     }
@@ -40,5 +46,5 @@ export let getGameData = (gameId,lang) => (dispatch) => {
 }
 
 export let setBalance = (balance) =>({type: SET_USER_BALANCE,payload: balance});
-
 export let setGameData = (data) =>({type: SET_GAME_DATA,payload: data});
+export let setUserId = (userId) =>({type: SET_GAME_DATA,payload: userId});
