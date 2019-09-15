@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sportbets/static/css/main.901e3209.chunk.css",
+    "main.js": "/sportbets/static/js/main.959edb5f.chunk.js",
+    "main.js.map": "/sportbets/static/js/main.959edb5f.chunk.js.map",
+    "runtime~main.js": "/sportbets/static/js/runtime~main.57ec881c.js",
+    "runtime~main.js.map": "/sportbets/static/js/runtime~main.57ec881c.js.map",
+    "static/css/2.266e55a5.chunk.css": "/sportbets/static/css/2.266e55a5.chunk.css",
+    "static/js/2.fff5e64c.chunk.js": "/sportbets/static/js/2.fff5e64c.chunk.js",
+    "static/js/2.fff5e64c.chunk.js.map": "/sportbets/static/js/2.fff5e64c.chunk.js.map",
+    "index.html": "/sportbets/index.html",
+    "precache-manifest.0151f5c16b06326499cae9cf79775c53.js": "/sportbets/precache-manifest.0151f5c16b06326499cae9cf79775c53.js",
+    "service-worker.js": "/sportbets/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/sportbets/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.901e3209.chunk.css.map": "/sportbets/static/css/main.901e3209.chunk.css.map",
+    "static/media/App.scss": "/sportbets/static/media/montserrat.d0e19a25.ttf",
+    "static/media/logo.svg": "/sportbets/static/media/logo.efe41bc5.svg",
+    "static/media/telegram.svg": "/sportbets/static/media/telegram.0e11930b.svg",
+    "static/media/user-default.svg": "/sportbets/static/media/user-default.d0338f26.svg"
+  }
+}
