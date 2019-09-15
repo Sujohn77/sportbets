@@ -8,7 +8,7 @@ import {withRouter} from "react-router";
 const HeaderContainer = (props) => {
 
     useEffect(()=>{
-        
+
         let balanceUpdate;
         if(props.match.params.user_id){
             props.getBalanceUser(props.match.params.user_id);
