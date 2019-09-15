@@ -16,8 +16,8 @@ const App = () => {
     <BrowserRouter>
       <Provider store={store}>
           <Layout>
-              <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => <LivePageContainer/>}/>
-              <Route path={`${process.env.PUBLIC_URL}/live`} render={() => <LivePageContainer/>}/>
+              <Route exact path={`${process.env.PUBLIC_URL}/:user_id?`} render={() => <LivePageContainer/>}/>
+              <Route path={`${process.env.PUBLIC_URL}/live:user_id?`} render={() => <LivePageContainer/>}/>
               <Route  path={`${process.env.PUBLIC_URL}/line`} render={() => <LinePage/>}/>
               <Route path={`${process.env.PUBLIC_URL}casino`} render={() => <CasinoPage/>}/>
           </Layout>
