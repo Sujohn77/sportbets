@@ -6,11 +6,12 @@ import {getBalanceUser} from "../../redux/live-reducer";
 import {withRouter} from "react-router";
 
 const HeaderContainer = (props) => {
-    
+
     useEffect(()=>{
-        debugger
+        
         let balanceUpdate;
         if(props.match.params.user_id){
+            props.getBalanceUser(props.match.params.user_id);
            balanceUpdate =  setInterval(() => {
                 props.getBalanceUser(props.match.params.user_id);
             },5000)

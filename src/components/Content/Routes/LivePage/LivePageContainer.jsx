@@ -14,13 +14,13 @@ const LivePageContainer = (props) =>{
         window.innerWidth > 720? setWidth(720) : setWidth(window.innerWidth);
 
         window.addEventListener('resize',() => {(window.innerWidth > 720)? setWidth(720) : setWidth(window.innerWidth);});
+
     },[])
 
     return <LivePage {...props} width={width}/>
 }
 
-
 export default compose(
     withRouter,
-    connect(null,{getGameData})
+   connect( null,{getGameData,getBalanceUser})
 )(LivePageContainer);
