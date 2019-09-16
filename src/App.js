@@ -13,14 +13,15 @@ import LivePageContainer from "./components/Content/Routes/LivePage/LivePageCont
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
           <Layout>
-              <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => <LivePageContainer/>}/>
-              <Route exact path={`${process.env.PUBLIC_URL}/user_id=:user_id`} render={() => <LivePageContainer/>}/>
-              <Route path={`${process.env.PUBLIC_URL}/live`} render={() => <LivePageContainer/>}/>
-              <Route  path={`${process.env.PUBLIC_URL}/line`} render={() => <LinePage/>}/>
-              <Route path={`${process.env.PUBLIC_URL}casino`} render={() => <CasinoPage/>}/>
+              <Route exact path={`/`} render={() => <LivePageContainer/>}/>
+              <Route path={`/user_id=:user_id?&match_id=:match_id?&sport_id=:sport_id?&lng=:lng?`} render={() => <LivePageContainer/>}/>
+              <Route exact path={`/user_id=:user_id?`} render={() => <LivePageContainer/>}/>
+              <Route path={`/live`} render={() => <LivePageContainer/>}/>
+              <Route path={`/line`} render={() => <LinePage/>}/>
+              <Route path={`/casino`} render={() => <CasinoPage/>}/>
           </Layout>
       </Provider>
     </BrowserRouter>
