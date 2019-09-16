@@ -22,5 +22,5 @@ const LivePageContainer = (props) =>{
 
 export default compose(
     withRouter,
-   connect( null,{getGameData,getBalanceUser})
+    connect( null,{getGameData,getBalanceUser})
 )(LivePageContainer);
